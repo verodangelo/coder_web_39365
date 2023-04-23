@@ -1,0 +1,40 @@
+header 
+{
+    background-color: rgb(185, 164, 193);
+}
+
+.nav-link {
+    color: antiquewhite;
+}
+@media (min-width: 960) {
+    #carouselExample
+    
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40 px;
+    
+}
+
+@media ( min-width 768px) {
+    .productos {display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}
+
+@media (min-width 992 px) {
+    .productos {display: grid;
+    grid-template-columns: repeat(3,1fr);
+gap: 20px;}
+    
+}
+
